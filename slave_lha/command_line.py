@@ -1,6 +1,6 @@
 import sys
 import lhafile
-from .parse_lha.read_lha import LhaSlaveArchive
+from parse_lha.read_lha import LhaSlaveArchive
 
 
 def main():
@@ -31,3 +31,6 @@ def main():
 
     print('Slave File: {}'.format(slave_archive.slave_file_name))
     print('Slave Hash: {}'.format(slave_archive.hash_digest))
+
+
+main()

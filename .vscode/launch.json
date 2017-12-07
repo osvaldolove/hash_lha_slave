@@ -12,7 +12,7 @@
             "pythonPath": "${config:python.pythonPath}",
             "program": "${file}",
             "cwd": "${workspaceRoot}",
-            "args": ["./test_data/Alcatraz.lha"],
+            "args": ["C:\\Users\\oaing\\Desktop\\Alcatraz.lha"],
             "env": {},
             "envFile": "${workspaceRoot}/.env",
             "debugOptions": [
