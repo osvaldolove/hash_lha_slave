@@ -1,6 +1,6 @@
 import sys
 import lhafile
-from parse_lha.read_lha import LhaSlaveArchive
+from .parse_lha.read_lha import LhaSlaveArchive
 
 
 def main():
