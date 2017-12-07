@@ -29,7 +29,7 @@ class LhaSlaveArchive:
         else:
             raise ValueError('No slave data to hash')
 
-    def _get_hasher(self, hash_algorithm: str):
+    def _get_hasher(self, hash_algorithm):
         if hash_algorithm is None or hash_algorithm.upper() == 'SHA1':
             return self._sha1_checksum
 
