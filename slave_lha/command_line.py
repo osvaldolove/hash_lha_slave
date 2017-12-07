@@ -31,6 +31,3 @@ def main():
 
     print('Slave File: {}'.format(slave_archive.slave_file_name))
     print('Slave Hash: {}'.format(slave_archive.hash_digest))
-
-
-main()
