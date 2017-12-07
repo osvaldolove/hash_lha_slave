@@ -1,0 +1,16 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+"1b475af" = {file = "https://github.com/FrodeSolheim/python-lhafile/tarball/master#egg=lhafile-0.2.1"}
+
+
+[dev-packages]
+
+pylint = "*"
+rope = "*"
