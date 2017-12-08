@@ -40,9 +40,9 @@ class LhaSlaveArchive:
 
     def _get_hasher(self, hash_algorithm):
         if hash_algorithm is None or hash_algorithm.upper() == 'SHA1':
-            return hashlib.sha1()
+            return hashlib.sha1
 
-        return hashlib.md5()
+        return hashlib.md5
 
 
 # if __name__ == '__main__':

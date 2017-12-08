@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='hash_lha_slave',
-    version='0.2.4',
+    version='0.2.5',
     description='Testing setup.py and LHA module import',
     url='http://dummy.com',
     author='Oliver Ainger',
