@@ -27,7 +27,8 @@ def main():
         sys.exit(1)
 
     slave_archive.read_lha()
-    slave_archive.get_hash()
-
-    print('Slave File: {}'.format(slave_archive.slave_file_name))
-    print('Slave Hash: {}'.format(slave_archive.hash_digest))
+    for slave in slave_archive.slaves:
+        slave.get_hash()
+        print('Slave File: {}'.format(slave.name))
+        print('Slave Hash: {}'.format(slave.hash_digest))
+        print('')
