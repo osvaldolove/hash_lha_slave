@@ -29,6 +29,5 @@ def main():
     slave_archive.read_lha()
     for slave in slave_archive.slaves:
         slave.get_hash()
-        print('Slave File: {}'.format(slave.name))
-        print('Slave Hash: {}'.format(slave.hash_digest))
+        print(slave)
         print('')
