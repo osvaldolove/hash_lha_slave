@@ -28,7 +28,6 @@ class LhaSlaveArchive:
         self.original_path = archive_path
         self.hasher = self._get_hasher(hash_algorithm)
         self.absolute_path = os.path.abspath(self.original_path)
-        print(self.absolute_path)
         self.lha_file = lhafile.lhafile.Lhafile(self.absolute_path)
         self.slaves = []
 
